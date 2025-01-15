@@ -1,0 +1,33 @@
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .typing-cursor .cursor {
+    animation: blink 1s step-end infinite;
+    font-weight: bold;
+    color: black;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 1s steps(2, start) infinite;
+  }
+  
